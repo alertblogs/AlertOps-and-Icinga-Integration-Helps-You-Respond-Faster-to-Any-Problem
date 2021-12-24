@@ -1,40 +1,38 @@
-AlertOps Expert Guidance
+AlertOps and Icinga Integration Helps You Respond Faster to Any Problem
 ========
 
- 
-The phrase ‘stakeholder management” assumes that stakeholders are truly informed by alerts. However, managers can only send communications out, they cannot force people to address them. To ensure your stakeholders are engaged during an incident, it is vital to set up a defined communication process. Yet, a recent Red Canary report1 found that 43% of surveyed participants lack readiness to notify the public and/or its customers in the event of a security breach. Without a clear strategy in place, communication can get lost in the chaos leaving stakeholders uninformed.
+Share on pocket
+Pocket
+Share on print
+Print / Download
 
-Not One Size Fits All
-=====
-Sending the same notification to all your stakeholders can cause a lot of confusion and create unwanted alert noise. Some users shouldn’t receive technical information, others require all the nitty gritty details. Every alert should be tailored based on a user’s expertise or role.
-Means of Communication
+Icinga is an open source monitoring tool that utilizes thousands of monitoring nodes to keep tabs on the pulse of your web and IT systems.
 
-Strategize mode(s) of communication to be used when communicating with stakeholders. Understand which tools engage stakeholders the most. It is also vital to unify these channels for streamlined points of contact.
+Icinga has monitoring systems for your server, web, and cloud computing systems so you can use Icinga in any situation. To ensure that your monitoring system isn’t a security vulnerability itself, Icinga is built with an integrated cluster system secured with SSL.
 
-Automate Processes
-====
-Engaging stakeholders can take up a lot of time. Automate stakeholder communications to ensure efficient delivery of insightful information. Implement AlertOps so you can focus on getting ahead of incidents while knowing your alerts reach the right person, through the right channel, every time. Sending regular updates to stakeholders during an incident is vital to keep them calm. Automation addresses your stakeholders’ needs while ensuring they remain aligned with minimal manual work.
+Icinga scales with your business as it grows. Icinga also integrates with a whole host of other tools, so adding another piece of tech to your stack won’t render your monitoring system obsolete.
 
-Clarity
-====
-A highly flexible incident management and alert automation tool, AlertOps is powered by an open API, with the ability to connect with practically any communication tool. Once plugged in, AlertOps delivers alerts with relevant incident information so that stakeholders can stay in the loop from detection to resolution.
-Any Way You Want It…
+This is a powerful and flexible monitoring system, but Icinga isn’t an incident management system.
 
-Since you use multiple channels for communication, you need an alerting system that sends alerts through multiple communication channels. AlertOps delivers alerts any way you want. Receive alerts by phone, SMS, or email. Even integrate with all your favorite chat tools, such as Slack and Microsoft Teams, so that users receive alerts where they are most likely to see them.
+That’s where AlertOps comes in.
 
-Insightful Notifications
-====
-Alerts are only useful if they contain information relevant to the user. With AlertOps, customized messages make it easy for stakeholders to quickly understand an incident. They can also receive updates throughout the course of handling the incident. Make sure emails are actionable as well. Send emails in rich text and HTML to include graphs, images, custom links, runbook links or links to a conference bridge for any alert. The solution even offers voice messages with incident details from the embedded phone system.
+Integrating AlertOps and Icinga connects your monitoring system to your incident communication and management system so you can respond to incidents faster and resolve problems more efficiently.
 
-Conclusion
-====
-Effective incident response requires, not only sending the right information to the right people, but also ensuring those stakeholders are engaged and truly informed. It is vital to have a plan in place for ensuring that each type of stakeholder receives only the information he or she needs. AlertOps ensures that your alerts reach the right person, through the right channel, every time.
+Here’s how AlertOps and Icinga empower your incident resolution process:
 
-1 Red Canary 2021 Threat Detection Report
+    AlertOps automatically creates an incident when it receives a status of “‘DOWN’ – Hosts” or “‘CRITICAL’ – Services.” AlertOps also automatically closes alerts when Icinga reports a status of “UP” or “OK.” This way your team doesn’t have to worry about administrative tasks and can focus on solving the problem.
+    If AlertOps receives a duplicate alert from Icinga, it will suppress creation of a new incident to minimize clutter in your incident management system, and reduce alert fatigue for your teams.
+    Automatically record an alert in the Inbound Messages table as “Mapped Appended” so you know when alerts have been received.
+
+You can do all this using a simple integration through our Generic REST API. AlertOps also gives you other tools like configurable message routing rules, customizable workflows, SLA based escalations, and other capabilities that make incident management easy.
+
+Head over to our help center to learn how to configure your AlertOps and Icinga integration, and find out what else AlertOps and Icinga can do for you.
+
+Or check out over 50 other third-party integrations for all the tools you already know and love
 
 source:
 ====
-https://alertops.com/red-canary-says-43-lack-readiness-to-notify-customers-of-a-security-breach/
+https://alertops.com/alertops-and-icinga-integration/
 
 Read more:
 ====
